@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Conversion System</title>
+    <link rel="stylesheet" href="systles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Conversion System</h1>
+        <form id="conversionForm">
+            <input type="text" id="inputNumber" placeholder="Enter a number" required>
+            <select id="conversionType" required>
+                <option value="" disabled selected>Select Conversion Type</option>
+                <option value="decToOct">Decimal to Octal</option>
+                <option value="decToBin">Decimal to Binary</option>
+                <option value="decToHex">Decimal to Hexadecimal</option>
+                <option value="octToDec">Octal to Decimal</option>
+                <option value="octToBin">Octal to Binary</option>
+                <option value="octToHex">Octal to Hexadecimal</option>
+                <option value="hexToBin">Hexadecimal to Binary</option>
+                <option value="hexToOct">Hexadecimal to Octal</option>
+                <option value="hexToDec">Hexadecimal to Decimal</option>
+                <option value="binToDec">Binary to Decimal</option>
+                <option value="binToOct">Binary to Octal</option>
+                <option value="binToHex">Binary to Hexadecimal</option>
+            </select>
+            <button type="submit">Convert</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
